@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/3d4e-react/static/css/main.b312a01f.chunk.css",
+    "main.js": "/3d4e-react/static/js/main.4b136f74.chunk.js",
+    "main.js.map": "/3d4e-react/static/js/main.4b136f74.chunk.js.map",
+    "runtime-main.js": "/3d4e-react/static/js/runtime-main.2d317208.js",
+    "runtime-main.js.map": "/3d4e-react/static/js/runtime-main.2d317208.js.map",
+    "static/js/2.f59dca4d.chunk.js": "/3d4e-react/static/js/2.f59dca4d.chunk.js",
+    "static/js/2.f59dca4d.chunk.js.map": "/3d4e-react/static/js/2.f59dca4d.chunk.js.map",
+    "index.html": "/3d4e-react/index.html",
+    "precache-manifest.ed2092a24b1337290befe3705438edb4.js": "/3d4e-react/precache-manifest.ed2092a24b1337290befe3705438edb4.js",
+    "service-worker.js": "/3d4e-react/service-worker.js",
+    "static/css/main.b312a01f.chunk.css.map": "/3d4e-react/static/css/main.b312a01f.chunk.css.map",
+    "static/js/2.f59dca4d.chunk.js.LICENSE.txt": "/3d4e-react/static/js/2.f59dca4d.chunk.js.LICENSE.txt",
+    "static/media/3d4elogo.jpg": "/3d4e-react/static/media/3d4elogo.5bd4a225.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2d317208.js",
+    "static/js/2.f59dca4d.chunk.js",
+    "static/css/main.b312a01f.chunk.css",
+    "static/js/main.4b136f74.chunk.js"
+  ]
+}
