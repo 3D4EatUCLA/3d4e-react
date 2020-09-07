@@ -5,3 +5,28 @@
 .navbar {
     background-color: #fcfcfc;
 }
+
+.navbar-brand {
+    width: 60px;
+}
+
+.navbar-items {
+    background-color: orangered;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 0px 100px 0px 100px;
+}
+
+.brand {
+    display: block;
+    margin: auto;
+    align-items: right;
+    position: relative;
+}
+
+.logostyle {
+    fill:none;
+    stroke: #ffc93c;
+    stroke-width: 35px;
+    stroke-miterlimit: 10px;
+}
