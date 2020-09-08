@@ -21,12 +21,12 @@ function RouterMap() {
                 <Workshops />
                 </Route>
 
-                <Route path="/officers">
-                <Officers />
-                </Route>
-
                 <Route path="/events">
                 <Events />
+                </Route>
+
+                <Route path="/officers">
+                <Officers />
                 </Route>
 
                 <Route path="/">

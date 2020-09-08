@@ -47,7 +47,7 @@ function NavBar() {
                     <Nav.Link href="/projects" className="navbar-items">Projects</Nav.Link>
                     <Nav.Link href="/workshops" className="navbar-items">Workshops</Nav.Link>
                     <Nav.Link href="/officers" className="navbar-items">Officers</Nav.Link>
-                    <Nav.Link href="/events" className="navbar-items">Events</Nav.Link>
+                    <Nav.Link href="/events" className="navbar-items">Gallery</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
         </Navbar>
