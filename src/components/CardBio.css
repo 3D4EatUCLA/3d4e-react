@@ -1,0 +1,87 @@
+.myCard {
+    position: relative;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    width: 450px;
+    height: 600px;
+    background-clip: border-box;
+    padding: 10px;
+}
+
+.myCard .bioPic {
+    box-sizing: border-box;
+    width: 100%;
+    flex: none;
+}
+
+.bioPic {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    left: 0;
+    top: 0;
+}
+
+.bpShown {
+    -webkit-transition: 0.5s -webkit-filter linear;
+    -moz-transition: 0.5s -moz-filter linear;
+    -moz-transition: 0.5s filter linear;
+    -ms-transition: 0.5s -ms-filter linear;
+    -o-transition: 0.5s -o-filter linear;
+    transition: 0.5s filter linear, 0.5s -webkit-filter linear;
+
+    -webkit-filter: brightness(100%);
+    -moz-filter: brightness(100%);
+    -o-filter: brightness(100%);
+    -ms-filter: brightness(100%);
+    filter: brightness(100%); 
+}
+
+.bpHidden {
+    -webkit-transition: 0.5s -webkit-filter linear;
+    -moz-transition: 0.5s -moz-filter linear;
+    -moz-transition: 0.5s filter linear;
+    -ms-transition: 0.5s -ms-filter linear;
+    -o-transition: 0.5s -o-filter linear;
+    transition: 0.5s filter linear, 0.5s -webkit-filter linear;
+
+    -webkit-filter: brightness(30%);
+    -moz-filter: brightness(30%);
+    -o-filter: brightness(30%);
+    -ms-filter: brightness(30%);
+    filter: brightness(30%);
+}
+
+.bioWrapper {
+    z-index: 2;
+    margin: auto;
+    width: 98%;
+    height: 98%;
+    border: medium solid #fcfcfc;
+}
+
+.bwShown {
+    transition: opacity 0.5s;
+    opacity: 1;
+}
+
+.bwHidden {
+    transition: opacity 0.5s;
+    opacity: 0;
+}
+
+.bioText {
+    padding: 20px;
+    font-size: 1.75em;
+    line-height: 1em;
+    color: #ffffff;
+    text-align: left;
+}
+
+.cardBody {
+    text-align: left !important;
+}

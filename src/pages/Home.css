@@ -1,0 +1,45 @@
+.parallax-1 {
+    background-image: url('../img/backgrounds/generalBG.JPG');
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background-attachment: fixed; 
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat; 
+    z-index: -1;
+    position: relative;
+}
+
+.parallaxContainer {
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: 1fr;
+    height: 100%;
+    width: 100%;
+    justify-items: center;
+    align-items: center;
+}
+
+.grid {
+    display: grid;
+    width: 100%;
+    height: 100%;
+}
+
+.introWrapper-1 {
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr;
+    margin: auto auto;
+    padding: auto;
+    align-content: center;
+}
+
+.text {
+    padding: 5%;
+    width: 100%;
+    z-index: 1;
+    display: grid;
+    justify-items: center;
+}

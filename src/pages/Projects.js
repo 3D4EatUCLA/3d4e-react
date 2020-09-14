@@ -1,8 +1,14 @@
+// dependencies
 import React from 'react';
+
+// includes
+import './Projects.css'
 
 function Projects() {
     return (
-        <h1>Projects page</h1>
+        <div>
+            <h2>Projects</h2>
+        </div>
     )
 }
 

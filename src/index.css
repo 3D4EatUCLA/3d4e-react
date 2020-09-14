@@ -1,12 +1,54 @@
 @font-face {
-    src: url(fonts/Kano.otf);
-    font-family: kano;
-  }
+  src: url(fonts/Kano.otf);
+  font-family: kano;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
   
-  body {
-    margin: 0;
-    font-family: kano;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    background-color: lightblue;
-  }
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  font-family: kano, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  position: relative;
+}
+
+h1 {
+  font-size: 7em;
+  font-weight: 500;
+  word-spacing: 0.1em;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h2 {
+  font-size: 5em;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+h3 {
+  font-size: 3em;
+  text-align: center;
+}
+
+h4 {
+  font-size: 2em;
+  text-align: center;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.5em;
+}
+
+svg {
+  overflow: hidden;
+  vertical-align: middle;
+}

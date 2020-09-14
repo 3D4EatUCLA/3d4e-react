@@ -39,7 +39,6 @@ function NavBar() {
                     <path id="E" className="logostyle" d="M443 265H275v154c11.4-1.3 28.8-4.6 48-14 19.5-9.6 33-21.6 41-30"/>
                     <path id="EStroke" className="logostyle" d="M275 339h84"/>
                 </svg>
-                3D For Everyone
             </Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">

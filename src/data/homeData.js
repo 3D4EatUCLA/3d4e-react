@@ -9,7 +9,7 @@
 
 const homeData = [
     {
-        id: 1,
+        id: "general",
         title: "3D Printing at UCLA",
         text: `3D Printing is a combination of art, engineering, and 
         problem-solving. At 3D4E, we strive to inspire people through the 
@@ -17,7 +17,7 @@ const homeData = [
         practical solutions to real-world problems through 3D-printed products.`,
     },
     {
-        id: 2,
+        id: "projects",
         title: "Projects",
         text: `Our club's main focus is on group projects, in which we design, 
         manufacture, and test using CAD software and 3D printing. These projects 
@@ -29,7 +29,7 @@ const homeData = [
         redirect: "/projects"
     },
     {
-        id: 3,
+        id: "workshops",
         title: "Workshops",
         text: `Regardless of your background, major, or design experience, we 
         are committed to teaching all our general members how to 3D print from 
@@ -40,14 +40,14 @@ const homeData = [
         redirect: "/workshops"
     },
     {
-        id: 4,
+        id: "gallery",
         title: "Gallery",
         text: `From showcases to tech fairs, retreats to social outreach events,
         follow our adventures by browsing our media gallery.`,
         redirect: "/events"
     },
     {
-        id: 5,
+        id: "officers",
         title: "Officers",
         text: `Meet the board members!`,
         redirect: "/officers"

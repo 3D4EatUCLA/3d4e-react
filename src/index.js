@@ -1,8 +1,8 @@
 // dependencies
 import React from 'react'
 import ReactDOM from 'react-dom'
-import { BrowserRouter as Router } from 'react-router-dom'
 import * as serviceWorker from './utils/serviceWorker';
+import { BrowserRouter as Router } from 'react-router-dom'
 
 // components
 import App from './App'
@@ -12,7 +12,7 @@ import './index.css'
 
 ReactDOM.render(
     <React.StrictMode>
-      <Router>
+      <Router >
         <App />
       </Router>
     </React.StrictMode>,
