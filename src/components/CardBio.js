@@ -32,20 +32,25 @@ class CardBio extends React.Component {
 
         return (
             <div className='myCard'>
-                <div 
-                    className={bioPicClass}
-                    style={{
-                        backgroundImage: `url(${this.props.photo})`
-                    }}
-                    onClick={this.handleClick}
-                >    
+                <div className='imgContainer'>
+                    <div 
+                        className={bioPicClass}
+                        style={{
+                            backgroundImage: `url(${this.props.photo})`
+                        }}
+                        onClick={this.handleClick}
+                    >    
+                    </div>
+                    <div
+                        className={bioWrapperClass}
+                        onClick={this.handleClick}
+                    >
+                        <p className='bioText'>{this.props.text}</p>
+                    </div>
                 </div>
-                <div
-                    className={bioWrapperClass}
-                    onClick={this.handleClick}
-                >
-                    <p className='bioText'>{this.props.text}</p>
-
+                <div className='cardCaption'>
+                    <h4 style={{margin: 0}}>{this.props.name}</h4>
+                    <h4 style={{margin: 0}}>{this.props.position}</h4>
                 </div>
             </div>
         )

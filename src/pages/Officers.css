@@ -1,11 +1,11 @@
 .pageWrapper {
     width: 100%;
     height: 100%;
-    background-color: #2196f3;
     text-align: center;
 }
 
 .boardCollage {
+    margin-top: 20px;
     display: flex;
     flex-flow: row wrap;
     align-items: center;
@@ -13,10 +13,29 @@
     justify-content: space-evenly;
 }
 
-.parallaxOfficers {
-    background-image: url('../img/backgrounds/retreatbg.jpg');
-    height: 50%;
+.backgroundBanner {
+    background-image:
+        linear-gradient(
+            rgba(0, 0, 0, 0.3),
+            rgba(0, 0, 0, 0.3)
+        ),
+        url('../img/backgrounds/retreatbg.jpg');
+    height: 450px;
     background-position: 50% 50%;
     background-repeat: no-repeat;
     background-size: cover;
+    display: flex;
+    justify-content: center;
+}
+
+.bannerText {
+    margin: auto auto;
+    color: white;
+    font-size: 7em; 
+}
+
+@media (max-width: 1000px) {
+    .bannerText {
+        font-size: 5em;
+    }
 }

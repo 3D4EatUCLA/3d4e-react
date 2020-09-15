@@ -2,7 +2,7 @@
 import React from 'react'
 
 // components
-import CardBio from 'components/CardBio'
+import CardBio from '../components/CardBio'
 
 // includes
 import boardData from '../data/boardData'
@@ -23,7 +23,8 @@ function Officers() {
 
     return (
         <div className='pageWrapper'>
-            <div className='parallaxOfficers'>
+            <div className='backgroundBanner'>
+                <h1 className='bannerText'>Officers</h1>
             </div>
             <div className='boardCollage'>
                 {officerComponents}
